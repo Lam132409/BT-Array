@@ -9,9 +9,9 @@ $time_elapsed = $cur_time - $time_ago;
 
 $seconds = $time_elapsed ;
 
-//$minutes = round($time_elapsed / 60 );
-//
-//$hours = round($time_elapsed / 3600);
+$minutes = round($time_elapsed / 60 );
+
+$hours = round($time_elapsed / 3600);
 
 $days = round($time_elapsed / 86400 );
 
@@ -23,65 +23,65 @@ $years = round($time_elapsed / 31207680 );
 
 // Seconds
 
-//if($seconds <= 60)
-//
-//{
-//
-//echo " Cách đây $seconds giây ";
-//
-//}
-//
-////Minutes
-//
-//else if($minutes <=60)
-//
-//{
-//
-//if($minutes==1)
-//
-//{
-//
-//echo " Cách đây 1 phút ";
-//
-//}
-//
-//else
-//
-//{
-//
-//echo " Cách đây $minutes phút";
-//
-//}
-//
-//}
-//
-////Hours
-//
-//else if($hours <=24)
-//
-//{
-//
-//if($hours==1)
-//
-//{
-//
-//echo "Cách đây 1 tiếng ";
-//
-//}
-//
-//else
-//
-//{
-//
-//echo " Cách đây  $hours tiếng ";
-//
-//}
-//
-//}
-//
-////Days
+if($seconds <= 60)
 
-if($days <= 7)
+{
+
+echo " Cách đây $seconds giây ";
+
+}
+
+//Minutes
+
+else if($minutes <=60)
+
+{
+
+if($minutes==1)
+
+{
+
+echo " Cách đây 1 phút ";
+
+}
+
+else
+
+{
+
+echo " Cách đây $minutes phút";
+
+}
+
+}
+
+//Hours
+
+else if($hours <=24)
+
+{
+
+if($hours==1)
+
+{
+
+echo "Cách đây 1 tiếng ";
+
+}
+
+else
+
+{
+
+echo " Cách đây  $hours tiếng ";
+
+}
+
+}
+
+//Days
+
+else if($days <= 7)
 
 {
 

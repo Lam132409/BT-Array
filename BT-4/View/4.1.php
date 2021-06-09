@@ -1,7 +1,6 @@
 <?php
 include_once "../Data/blog.php";
-include_once "../Code/getData.php";
-include_once "../Code/timeago.php"
+include_once "../Function/timeago.php"
 ?>
 <!doctype html>
 <html lang="en">
